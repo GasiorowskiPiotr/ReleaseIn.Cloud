@@ -15,12 +15,18 @@
       "main": "main.ts",
       "test": "test.ts",
       "tsconfig": "tsconfig.json",
-      "prefix": "app",
+      "prefix": "",
       "mobile": false,
       "styles": [
-        "styles.css"
+        "styles/animate.css",
+        "styles/bootstrap.css",
+        "styles/style.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "scripts/jquery-2.1.1.js",
+        "scripts/bootstrap.js",
+        "scripts/metisMenu/jquery.metisMenu.js"
+      ],
       "environments": {
         "source": "environments/environment.ts",
         "dev": "environments/environment.ts",
